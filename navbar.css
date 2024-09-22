@@ -1,0 +1,169 @@
+*{
+margin:0 ;
+padding: 0;
+
+}
+body{
+background-color: aliceblue;
+min-height: 100vh;
+}
+h2{
+    color:rgb(153, 65, 65);
+}
+.navbar{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    width:100%;
+    height: 8vh;
+    background-color: antiquewhite;
+    color: black;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color:black;
+
+}
+h2:hover{
+    color:blue ;
+    transition: 0.4s;
+    font-size: 30px;
+    cursor: pointer;
+ }
+a:hover{
+    color: blue;
+    transition: 0.8s;
+    font-size: 25px;
+    cursor: pointer; 
+   }
+/********new page******/
+.page-1{
+   display: flex;
+   justify-content:center;
+   padding: auto;
+   margin-top: 500px;
+   height: auto;
+   width:auto;
+  font-size: 21px;
+  color: cadetblue;
+}
+.door-style{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vh;
+
+}
+img{
+    width: 124px;
+    height: auto;
+    cursor: pointer;
+  padding: 3.5px;
+    margin-top: 10px;
+ }
+ img:hover{
+    min-width: 200px;
+    min-height: 200px;
+    transition: 0.8s;
+ }
+ .loginform{
+    align-items: center;
+    display: flex;
+    justify-content:space-around;
+    flex-direction:column;
+   padding: 5px;
+ }
+ .form{
+    align-items: flex-end;
+    display: flexbox;
+    width: 300px;
+    padding-left: 20px;
+   
+ }
+ .form{
+    background-color: antiquewhite;
+ }
+ .tbox{
+    padding: 3px;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    border: none;
+    color: black;
+    outline: none;
+ }
+.btn{
+    text-transform:uppercase;
+    padding: 3px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: black;
+    color: whitesmoke;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+}
+.dropdown{
+   
+    background-color: rgb(184, 139, 82);
+    width: 208px;
+    height: 175px;
+    float: left;
+}
+.DOOR{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+#option{
+   
+    outline: none;
+    font-size: 18px;
+    background-color: rgb(188, 196, 204);
+    color: blue;
+}  
+
+#option2{
+   
+    outline: none;
+    font-size: 18px;
+    background-color: rgb(188, 196, 204);
+    color: blue;
+    float: right;
+    margin: 0;
+    padding: 0;
+}  
+.dropdown2{
+   
+    background-color: rgb(184, 139, 82);
+    width: 208px;
+    height: 175px;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+.DOOR2{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+   
+}
+.header2{
+    text-align: center;
+    font-size: 40px;
+    align-items: center;
+    width: 400px;
+    height: 30px;
+    justify-content:center;
+    float: left;
+    padding-left: 70PX;
+    color: rgb(93, 85, 139);
+}
